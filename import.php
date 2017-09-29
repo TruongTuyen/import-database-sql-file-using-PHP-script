@@ -50,3 +50,4 @@ foreach ($lines as $line) {
 mysqli_close($connection);
 
 echo "Database imported successfully";
+wpdb::query( string $query )
